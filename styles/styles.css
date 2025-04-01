@@ -18,5 +18,40 @@ h1, h2, h3, h4, h5, h6 {
     outline: solid #0691a6 3px; 
 }
 p {
-    line-height: 50px;
+    line-height: 35px;
+} 
+.info {
+    background-color: #0b8787;
+}
+.alert {
+    background-color: #c40404;
+} 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.info, .alert {
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    padding: 1.5rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.left-column {
+    background: #ef5e15;
+    border-radius: 5px;
+}
+.image-container img {
+    width: 24%;
+}
+.image-container {
+    margin: 0 auto;
+    width: 96%;
 }
